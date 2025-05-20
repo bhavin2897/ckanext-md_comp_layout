@@ -1,0 +1,133 @@
+{% extends "page.html" %}
+
+{% block breadcrumb_content %}
+  <li class="active">{% link_for _('Competition'), 'statictheme.competition' %}</li>
+{% endblock %}
+
+{% block primary %}
+
+<article class="module" role="main">
+    <div class="module-content">
+<h1>Leibniz Fast Calculation Competition</h1>
+
+  <h2>Key Dates</h2>
+  <ul>
+    <li><strong>Registration Opens:</strong> June 15th to September 15th, 2025, 23:59 CET</li>
+    <li><strong>Deadline for Submissions:</strong> January 20th, 2026, 23:59 CET</li>
+    <li><strong>Evaluation:</strong> until March 12, 2026</li>
+  </ul>
+
+  <h2>How to Participate</h2>
+  <p>
+    To participate, please fill out the form on the CRC 1368 web page linked below and download the input data provided above.
+    You will be contacted via mail with the necessary details.
+  </p>
+  <ul>
+    <li><a href="https://www.sfb1368.uni-hannover.de/de/wettbewerb/registration" target="_blank">REGISTRATION FORM</a></li>
+    <li><strong>INPUT DATA:</strong> <em>LINK TO CKAN DATASET TBA</em></li>
+  </ul>
+
+  <h2>Awards</h2>
+  <p>The Leibniz Fast Calculation Competition offers the following prizes:</p>
+
+  <h3>1st Prize</h3>
+  <ul>
+    <li>Certificate of Excellence</li>
+    <li>
+      A 3-month stay for one person as a visiting researcher at one of the SFB's sub-projects
+      (<a href="https://www.sfb1368.uni-hannover.de/en/research" target="_blank">see list here</a>).
+      This includes:
+      <ul>
+        <li>Monthly expense allowance of 1300 €</li>
+        <li>
+          Travel allowance according to
+          <a href="https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/im-ausland-studieren-forschen-lehren/daad_reisekostenzuschuesse_stipendiaten.pdf" target="_blank">this DAAD table</a>
+        </li>
+      </ul>
+    </li>
+    <li>Coverage of the costs for a joint Open Access publication with the subproject leader</li>
+  </ul>
+
+  <h3>2nd Prize</h3>
+  <ul>
+    <li>Certificate of Excellence</li>
+    <li>
+      A 1-month stay for one person as a visiting researcher at one of the SFB's sub-projects
+      (<a href="https://www.sfb1368.uni-hannover.de/en/research" target="_blank">see list here</a>), including:
+      <ul>
+        <li>Monthly expense allowance of 1300 €</li>
+        <li>
+          Travel allowance according to
+          <a href="https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/im-ausland-studieren-forschen-lehren/daad_reisekostenzuschuesse_stipendiaten.pdf" target="_blank">this DAAD table</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>3rd Prize</h3>
+  <ul>
+    <li>Certificate of Excellence</li>
+  </ul>
+
+  <p><em>*Terms and conditions for the stay as visiting researcher:</em></p>
+  <ul>
+    <li>The allowances are subject to successful visa application if applicable.</li>
+    <li>Visiting researchers must have valid health, accident, and personal liability insurance in Germany from the first day of their stay.</li>
+    <li>Visiting researchers are responsible for complying with existing obligations under German social and tax law.</li>
+  </ul>
+
+  <h2>Starting Point</h2>
+  <p>After your registration, you will be contacted via mail and provided with the following:</p>
+  <ul>
+    <li>Case study template</li>
+    <li>Lammps infile of a diffusion study between Copper (Cu) and Aluminum (Al) using the Embedded Atom Method potential</li>
+    <li>Documentation</li>
+    <ul>
+      <li>Usage of the infile</li>
+      <li>Installation of LAMMPS and Ovito</li>
+      <li>Access to computational resources</li>
+      <li>Data management guideline</li>
+      <li>Instructions on how to manage and submit data in compliance with FAIR principle</li>
+      <li>Submission guideline</li>
+      <li>Instructions on the submitted files, format, contents, size, etc.</li>
+    </ul>
+  </ul>
+
+  <h2>Your Contribution</h2>
+  <p>To participate in the competition, you need to provide the following until the submission deadline:</p>
+  <ul>
+    <li><strong>Diffusion coefficient</strong>
+      <ul>
+        <li>Diffusion coefficient value</li>
+        <li>Calculation method</li>
+      </ul>
+    </li>
+    <li><strong>Documentation</strong>
+      <ul>
+        <li>Workflow (following FAIR principles)</li>
+        <li>Methodology description (e.g., optimized algorithm or potential function or simulation setup)</li>
+      </ul>
+    </li>
+    <li><strong>Results</strong>
+      <ul>
+        <li>Log files, image sequences, animations, post-processing files/codes</li>
+      </ul>
+    </li>
+    <li><strong>Simulation performance</strong>
+      <ul>
+        <li>Information of the size, time, and speed of simulations using CPUs/GPUs</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>Evaluation</h2>
+  <p>
+    Solutions will be assessed based on accuracy, computational speed, scalability, and innovation for developing the fastest and most accurate method for simulating the diffusion between Al and Cu at low temperatures.
+    FAIR principles ensure that the data is <strong>Findable</strong>, <strong>Accessible</strong>, <strong>Interoperable</strong>, and <strong>Reusable</strong>.
+  </p>
+    </div>
+      </article>
+{% endblock %}
+
+{% block secondary %}
+{% endblock %}

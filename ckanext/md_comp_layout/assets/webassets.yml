@@ -1,0 +1,14 @@
+# md_comp_layout-js:
+#   filter: rjsmin
+#   output: ckanext-md_comp_layout/%(version)s-md_comp_layout.js
+#   contents:
+#     - js/md_comp_layout.js
+#   extra:
+#     preload:
+#       - base/main
+
+# md_comp_layout-css:
+#   filter: cssrewrite
+#   output: ckanext-md_comp_layout/%(version)s-md_comp_layout.css
+#   contents:
+#     - css/md_comp_layout.css

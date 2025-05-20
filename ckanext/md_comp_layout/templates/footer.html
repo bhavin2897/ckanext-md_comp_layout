@@ -1,0 +1,7 @@
+{% ckan_extends %}
+
+{% block footer_links %}
+{{ super() }}
+<li> <a href = "{{ h.url_for('/terms_and_condition') }}">{{ _('Terms of Participation') }}</a></li>
+<li> <a href = "{{ h.url_for( '/imprint_crc') }}">{{ _('Imprint') }}</a> </li>
+{% endblock %}
